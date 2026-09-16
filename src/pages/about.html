@@ -1,0 +1,48 @@
+<section class="service-hero">
+  <div class="wrap">
+    <span class="eyebrow">About Us</span>
+    <h1>The Story Behind {{site.businessName}}</h1>
+    <p class="hero-lede" style="margin-top:1em; max-width:760px;">{{site.story}}</p>
+  </div>
+</section>
+
+<section style="padding-top:0;">
+  <div class="wrap">
+    <div class="card card-soft">
+      <span class="eyebrow">What "Nafa" Means</span>
+      <p style="color:var(--color-primary-dark); font-size:1.05rem;">{{nameMeaning}}</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Our Values</span>
+      <h2>What We Stand For</h2>
+    </div>
+    <div class="grid grid-3">
+      {{#each site.values}}
+      <div class="card value-card">
+        <h3>{{title}}</h3>
+        <p>{{description}}</p>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <span class="eyebrow">Our Mission</span>
+    <p class="accent-text" style="font-size:1.6rem; max-width:720px; margin:0 auto;">&ldquo;{{site.mission}}&rdquo;</p>
+  </div>
+</section>
+
+<section class="text-center">
+  <div class="wrap">
+    <h2>Ready to Feel Cared For?</h2>
+    <p>Book your session and let us bring the experience to you.</p>
+    <a href="/booking/" class="btn btn-primary btn-lg">Book Now</a>
+  </div>
+</section>

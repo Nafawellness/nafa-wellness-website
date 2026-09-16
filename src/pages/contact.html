@@ -1,0 +1,49 @@
+<section class="service-hero">
+  <div class="wrap">
+    <span class="eyebrow">Contact</span>
+    <h1>Get in Touch</h1>
+  </div>
+</section>
+
+<section style="padding-top:0;">
+  <div class="wrap contact-grid">
+    <div>
+      <h3>Contact Details</h3>
+      <p><strong>Phone / WhatsApp:</strong> <a href="{{site.contact.phoneHref}}">{{site.contact.phone}}</a></p>
+      <p><strong>Email:</strong> <a href="mailto:{{site.contact.email}}">{{site.contact.email}}</a></p>
+      <p><strong>Location:</strong> {{site.contact.location}} &mdash; mobile service, we come to you</p>
+      <div class="hero-actions" style="justify-content:flex-start; margin-top:1.5em;">
+        <a href="{{site.contact.whatsappHref}}" class="btn btn-outline" target="_blank" rel="noopener">Message on WhatsApp</a>
+      </div>
+      <p class="form-note mt-lg">For appointment scheduling and changes, please use the <a href="/booking/">online booking portal</a> — it's the fastest way to see live availability.</p>
+    </div>
+    <div class="card">
+      <form id="contact-form" name="contact" method="POST" data-static-form>
+        <div class="form-field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required autocomplete="name">
+        </div>
+        <div class="form-field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required autocomplete="email">
+        </div>
+        <div class="form-field">
+          <label for="phone">Phone (optional)</label>
+          <input type="tel" id="phone" name="phone" autocomplete="tel">
+        </div>
+        <div class="form-field">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" required>
+        </div>
+        <div class="form-field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <input type="text" name="_gotcha" class="visually-hidden" tabindex="-1" autocomplete="off">
+        <p class="form-note">Please do not include medical or health information in this form. For intake and health forms, we'll send you a secure link through our client portal after booking.</p>
+        <button type="submit" class="btn btn-primary btn-block mt-lg">Send Message</button>
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>

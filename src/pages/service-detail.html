@@ -1,0 +1,27 @@
+<section class="service-hero">
+  <div class="wrap">
+    <p class="breadcrumb"><a href="/services/">Services</a> / {{name}}</p>
+    <img class="service-photo service-photo-lg" src="{{photo}}" alt="{{name}}" loading="lazy">
+    <span class="eyebrow">{{category}}</span>
+    <h1>{{name}}</h1>
+    <p class="hero-lede" style="margin-top:1em; max-width:680px;">{{description}}</p>
+    <ul class="service-options">
+      {{#each options}}
+      <li>{{duration}} — ${{price}}</li>
+      {{/each}}
+    </ul>
+    <a href="{{bookUrl}}" class="btn btn-primary btn-lg" target="_blank" rel="noopener">Book {{name}}</a>
+  </div>
+</section>
+
+<section style="padding-top:0;">
+  <div class="wrap">
+    <div class="notice-box">
+      <p style="margin:0; color:var(--color-primary-dark);">A 50% deposit is required to confirm your booking. Delivered at your home, office, or hotel in Edmonton and surrounding areas.</p>
+    </div>
+    <div class="service-nav">
+      <a href="/services/">&larr; All Services</a>
+      <a href="/booking/">Book Now &rarr;</a>
+    </div>
+  </div>
+</section>

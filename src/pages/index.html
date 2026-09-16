@@ -1,0 +1,85 @@
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div class="hero-content">
+        <span class="eyebrow">Mobile Massage Therapy · Edmonton, Alberta</span>
+        <h1>{{site.businessName}}</h1>
+        <p class="hero-tagline">{{site.tagline}}</p>
+        <p class="hero-lede">{{site.positioning}}</p>
+        <div class="hero-actions">
+          <a href="/booking/" class="btn btn-primary btn-lg">Book Now</a>
+          <a href="/services/" class="btn btn-outline btn-lg">View Services</a>
+        </div>
+        <div class="hero-badges">
+          <span class="hero-badge">CRMTA Certified</span>
+          <span class="hero-badge">Fully Insured</span>
+          <span class="hero-badge">Comes to You</span>
+        </div>
+      </div>
+      <div class="hero-media">
+        <img src="/images/services/relaxation-massage.jpg" alt="Relaxation massage session" class="hero-photo">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Why Nafa Wellness</span>
+      <h2>What Makes Us Different</h2>
+    </div>
+    <div class="grid grid-3">
+      {{#each site.differentiators}}
+      <div class="card value-card">
+        <h3>{{title}}</h3>
+        <p>{{description}}</p>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <span class="eyebrow">Our Mission</span>
+    <p class="accent-text" style="font-size:1.6rem; max-width:720px; margin:0 auto;">&ldquo;{{site.mission}}&rdquo;</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Popular Treatments</span>
+      <h2>A Few of Our Services</h2>
+    </div>
+    <div class="grid grid-3">
+      {{#each featuredServices}}
+      <div class="card service-card">
+        <img class="service-photo" src="{{photo}}" alt="{{name}}" loading="lazy">
+        <h3>{{name}}</h3>
+        <p class="price-range">{{priceLabel}}</p>
+        <p>{{description}}</p>
+        <a href="/services/{{slug}}/" class="btn btn-outline">Learn More</a>
+      </div>
+      {{/each}}
+    </div>
+    <p class="text-center mt-lg"><a href="/services/" class="btn btn-primary">See All 10 Services &amp; Pricing</a></p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap contact-grid" style="align-items:center;">
+    <div>
+      <span class="eyebrow">Meet Your Therapist</span>
+      <h2>{{site.practitionerName}}</h2>
+      <p>{{site.story}}</p>
+      <a href="/practitioner/" class="btn btn-outline">About Aminata</a>
+    </div>
+    <div class="card card-soft">
+      <h3>Ready when you are</h3>
+      <p>Booking takes just a couple of minutes through our secure online portal.</p>
+      <a href="/booking/" class="btn btn-primary btn-block">Book Your Session</a>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,24 @@
+<section class="service-hero">
+  <div class="wrap">
+    <span class="eyebrow">FAQ</span>
+    <h1>Frequently Asked Questions</h1>
+  </div>
+</section>
+
+<section style="padding-top:0;">
+  <div class="wrap legal-content">
+    {{#each faq}}
+    <details class="faq-item">
+      <summary>{{question}}</summary>
+      <p>{{answer}}</p>
+    </details>
+    {{/each}}
+  </div>
+</section>
+
+<section class="text-center">
+  <div class="wrap">
+    <h2>Still Have Questions?</h2>
+    <a href="/contact/" class="btn btn-primary">Contact Us</a>
+  </div>
+</section>
