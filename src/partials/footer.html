@@ -1,0 +1,41 @@
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-col footer-brand">
+      <img src="/images/logo-icon.png" alt="" class="footer-mark" aria-hidden="true">
+      <p class="footer-tagline">{{site.tagline}}</p>
+    </div>
+    <div class="footer-col">
+      <h3>Contact</h3>
+      <ul class="footer-list">
+        <li><a href="{{site.contact.phoneHref}}">{{site.contact.phone}}</a></li>
+        <li><a href="mailto:{{site.contact.email}}">{{site.contact.email}}</a></li>
+        <li>{{site.contact.location}}</li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h3>Explore</h3>
+      <ul class="footer-list">
+        <li><a href="/services/">Services</a></li>
+        <li><a href="/practitioner/">Practitioner</a></li>
+        <li><a href="/faq/">FAQ</a></li>
+        <li><a href="/booking/">Book Online</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h3>Follow</h3>
+      <ul class="footer-list footer-social">
+        <li><a href="{{site.social.instagram}}" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="{{site.social.facebook}}" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a href="{{site.social.tiktok}}" target="_blank" rel="noopener">TikTok</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <p>&copy; {{year}} {{site.businessName}}. All rights reserved.</p>
+    <ul class="footer-legal">
+      <li><a href="/privacy-policy/">Privacy Policy</a></li>
+      <li><a href="/booking-cancellation-policy/">Booking &amp; Cancellation Policy</a></li>
+    </ul>
+  </div>
+</footer>
+<script src="/js/main.js"></script>
