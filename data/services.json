@@ -1,0 +1,112 @@
+[
+  {
+    "slug": "deep-tissue-massage",
+    "name": "Deep Tissue Massage",
+    "category": "Massages",
+    "description": "A firm, focused massage that works through the deeper layers of muscle and connective tissue to release chronic tension, knots, and tightness. Using slow, deliberate strokes and targeted pressure, this treatment helps break up adhesions, improve mobility, and ease discomfort from overused or injured muscles. Ideal if you carry stress in your shoulders, neck, or back, sit at a desk for long hours, or simply need more than a light touch to feel real, lasting relief.",
+    "noterroBookUrl": "https://nafawellness.noterro.com/book-online/service/321718/Deep-Tissue-Massage",
+    "options": [
+      { "duration": "30 min", "price": 90 },
+      { "duration": "60 min", "price": 110 },
+      { "duration": "90 min", "price": 145 }
+    ]
+  },
+  {
+    "slug": "relaxation-massage",
+    "name": "Relaxation Massage",
+    "category": "Massages",
+    "description": "A gentle, full-body massage using long, flowing strokes and light-to-medium pressure to calm the nervous system, ease everyday stress, and improve circulation. This treatment focuses on overall relaxation rather than deep muscle work, making it a wonderful way to unwind, recharge, and reconnect with your body. Perfect if you simply need to slow down, breathe, and be cared for.",
+    "noterroBookUrl": "https://nafawellness.noterro.com/book-online/service/321719/Relaxation-Massage",
+    "options": [
+      { "duration": "45 min", "price": 85 },
+      { "duration": "60 min", "price": 110 },
+      { "duration": "90 min", "price": 145 }
+    ]
+  },
+  {
+    "slug": "hot-stone-massage",
+    "name": "Hot Stone Massage",
+    "category": "Massages",
+    "description": "Smooth, heated basalt stones are combined with flowing massage techniques to melt away tension, improve circulation, and ease muscle stiffness. The gentle warmth allows for deeper relaxation with less pressure, calming both body and mind. A soothing choice if you hold tension in your back and shoulders, feel the cold easily, or want a deeply restorative experience.",
+    "noterroBookUrl": "https://nafawellness.noterro.com/book-online/service/321722/Hot-Stone-Massage",
+    "options": [
+      { "duration": "60 min", "price": 140 },
+      { "duration": "90 min", "price": 185 }
+    ]
+  },
+  {
+    "slug": "pre-post-natal-massage",
+    "name": "Pre & Post Natal Massage",
+    "category": "Massages",
+    "description": "A gentle, specialized massage safely adapted for pregnancy and the postpartum period, using pregnancy-safe positioning, supportive pillows, and light-to-medium techniques to ease common discomforts like back pain, hip and joint tension, swelling, and fatigue. Every session is tailored to your trimester and comfort level, offering a safe and nurturing way to relax as your body changes and to support recovery after birth.",
+    "noterroBookUrl": "https://nafawellness.noterro.com/book-online/service/321723/Pre-and-Post-Natal-Massage",
+    "options": [
+      { "duration": "60 min", "price": 110 },
+      { "duration": "90 min", "price": 120 }
+    ]
+  },
+  {
+    "slug": "lymphatic-massage",
+    "name": "Lymphatic Massage",
+    "category": "Massages",
+    "description": "A light-pressure, rhythmic technique that encourages the natural drainage of the lymphatic system, helping to reduce swelling and fluid retention, support your immune system, and flush out toxins. This gentle treatment is especially helpful after surgery, travel, or periods of inactivity, and leaves your body feeling lighter, de-puffed, and refreshed.",
+    "noterroBookUrl": "https://nafawellness.noterro.com/book-online/service/321725/Lymphatic-Massage",
+    "options": [
+      { "duration": "60 min", "price": 120 },
+      { "duration": "90 min", "price": 150 }
+    ]
+  },
+  {
+    "slug": "sports-massage",
+    "name": "Sports Massage",
+    "category": "Massages",
+    "description": "Designed for active bodies, this massage targets the muscles used in your sport or training to aid recovery, improve flexibility, and prevent injury. Combining deep tissue work, stretching, and trigger point techniques, it's tailored to your specific activity, whether you're preparing for competition, recovering from an intense workout, or managing ongoing muscle tightness from an active lifestyle.",
+    "noterroBookUrl": "https://nafawellness.noterro.com/book-online/service/321726/Sports-Massage",
+    "options": [
+      { "duration": "60 min", "price": 115 },
+      { "duration": "90 min", "price": 145 }
+    ]
+  },
+  {
+    "slug": "madero-lymphatic-massage",
+    "name": "Madero-Lymphatic Massage (Wood Therapy)",
+    "category": "Massages",
+    "description": "Specialized wooden tools are used to work the body, supporting circulation and lymphatic drainage in a technique known as wood therapy.",
+    "noterroBookUrl": "https://nafawellness.noterro.com/book-online/service/321727/Madero-Lymphatic-Massage-(Wood-Therapy)",
+    "options": [
+      { "duration": "60 min", "price": 130 },
+      { "duration": "90 min", "price": 165 }
+    ]
+  },
+  {
+    "slug": "cupping-massage",
+    "name": "Cupping Massage",
+    "category": "Massages",
+    "description": "A traditional suction-cup technique combined with massage to help release muscle tension, support circulation, and ease stiffness.",
+    "noterroBookUrl": "https://nafawellness.noterro.com/book-online/service/321728/Cupping-Massage",
+    "options": [
+      { "duration": "60 min", "price": 100 },
+      { "duration": "90 min", "price": 145 }
+    ]
+  },
+  {
+    "slug": "extended-facial-massage",
+    "name": "Extended Facial Massage",
+    "category": "Add-ons",
+    "description": "A soothing add-on treatment focused on relaxing the muscles of the face and easing tension.",
+    "noterroBookUrl": "https://nafawellness.noterro.com/book-online/service/321729/Extended-Facial-Massage",
+    "options": [
+      { "duration": "20 min", "price": 20 }
+    ]
+  },
+  {
+    "slug": "extended-foot-massage",
+    "name": "Extended Foot Massage",
+    "category": "Add-ons",
+    "description": "A soothing add-on treatment focused on relaxing the feet with targeted pressure-point work.",
+    "noterroBookUrl": "https://nafawellness.noterro.com/book-online/service/321730/Extended-Foot-Massage",
+    "options": [
+      { "duration": "20 min", "price": 20 }
+    ]
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "businessName": "Nafa Wellness",
+  "subtitle": "Smiling Coast Massage",
+  "tagline": "Care that feels like home.",
+  "practitionerName": "Aminata Sama Corr",
+  "nameMeaning": "The name Nafa comes from Mandinka, one of the principal languages of The Gambia. It means that which does good, that which nourishes, that which benefits.",
+  "story": "Nafa Wellness was born from a deep conviction: that healing is not a luxury, but a right. Founded by Aminata Sama Corr, a CRMTA-certified massage therapist based in Edmonton, Alberta, Nafa Wellness brings professional, personalised massage therapy directly to your door. Aminata brings with her not only her professional certification and training, but the warmth, the presence, and the healing knowledge of her roots. Every session is designed to make you feel held, restored, and truly cared for.",
+  "mission": "To bring professional, certified massage therapy to the comfort of your own space, with the warmth and personal care that makes every session feel like coming home.",
+  "positioning": "Nafa Wellness is a premium mobile massage therapy service in Edmonton, Alberta. For busy professionals, active individuals, expectant mothers, and anyone seeking genuine restoration, Aminata Sama Corr brings certified, personalised care directly to your door, with the warmth of someone who truly knows how to heal.",
+  "values": [
+    { "title": "Care above all", "description": "Every client is treated as a person, not a booking." },
+    { "title": "Professionalism", "description": "CRMTA certified, fully insured, and committed to the highest standards." },
+    { "title": "Accessibility", "description": "We come to you, removing every barrier between you and your wellness." },
+    { "title": "Authenticity", "description": "Rooted in tradition, delivered with modern expertise." },
+    { "title": "Trust", "description": "Because letting someone into your home requires it." }
+  ],
+  "differentiators": [
+    { "title": "Mobile and convenient", "description": "No commute, no parking, no waiting room. Aminata comes to you, fully equipped." },
+    { "title": "Certified and insured", "description": "CRMTA member, covered by professional and general liability insurance." },
+    { "title": "Personalised care", "description": "Every session is adapted to the client's specific needs, not a one-size-fits-all treatment." },
+    { "title": "Warm and rooted", "description": "The healing energy of West African tradition meets Canadian professional excellence." },
+    { "title": "Trustworthy", "description": "Aminata builds relationships, not transactions. Clients return because they feel safe and cared for." }
+  ],
+  "contact": {
+    "phone": "587-930-7669",
+    "phoneHref": "tel:+15879307669",
+    "whatsappHref": "https://wa.me/15879307669",
+    "email": "nafawellness@gmail.com",
+    "location": "Edmonton, Alberta",
+    "serviceArea": ["Edmonton, Alberta and surrounding areas"]
+  },
+  "social": {
+    "instagram": "https://instagram.com/nafawellness",
+    "facebook": "https://facebook.com/nafawellness",
+    "tiktok": "https://tiktok.com/@nafawellness"
+  },
+  "booking": {
+    "portalBase": "https://nafawellness.noterro.com",
+    "practitionerBookingUrl": "https://nafawellness.noterro.com/book-online/practitioner/1650493/Aminata-Sama-Corr",
+    "practitionerInfoUrl": "https://nafawellness.noterro.com/practitioner/1650493/Aminata-Sama-Corr"
+  },
+  "brand": {
+    "colors": {
+      "primary": "#5B3D8A",
+      "secondary": "#C9B8E8",
+      "deepAccent": "#3B6B4F",
+      "lightAccent": "#8FAF9A",
+      "base": "#FAF8FF"
+    },
+    "fonts": {
+      "heading": "Montserrat",
+      "accent": "The Seasons"
+    }
+  }
+}
