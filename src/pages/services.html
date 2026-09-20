@@ -1,49 +1,49 @@
 <section class="service-hero">
-  <div class="wrap">
-    <span class="eyebrow">Services &amp; Pricing</span>
-    <h1>Massage Therapy, Brought to You</h1>
-    <p class="hero-lede" style="margin-top:1em;">All services are delivered at your home, office, or hotel in Edmonton and the surrounding area. Prices are in Canadian dollars (CAD).</p>
-  </div>
+<div class="wrap">
+<span class="eyebrow">Services &amp; Pricing</span>
+<h1>Massage Therapy, Brought to You</h1>
+<p class="hero-lede" style="margin-top:1em;">All services are delivered at your home, office, or hotel in Edmonton and the surrounding area. Prices are in Canadian dollars (CAD).</p>
+</div>
 </section>
 
 <section style="padding-top:0;">
-  <div class="wrap">
-    <h2 class="category-heading">Massages</h2>
-    <div class="grid grid-3">
-      {{#each massageServices}}
-      <div class="card service-card">
-        <img class="service-photo" src="{{photo}}" alt="{{name}}" loading="lazy">
-        <h3>{{name}}</h3>
-        <p class="price-range">{{priceLabel}}</p>
-        <p>{{description}}</p>
-        <a href="/services/{{slug}}/" class="btn btn-outline">Details &amp; Booking</a>
-      </div>
-      {{/each}}
-    </div>
+<div class="wrap">
+<h2 class="category-heading">Massages</h2>
+<div class="grid grid-3">
+{{#each massageServices}}
+<div class="card service-card">
+<img class="service-photo" src="{{photo}}" alt="{{name}}" loading="lazy">
+<h3>{{name}}</h3>
+<p class="price-range">{{priceLabel}}</p>
+<p>{{description}}</p>
+<a href="/services/{{slug}}/" class="btn btn-outline">Details &amp; Booking</a>
+</div>
+{{/each}}
+</div>
 
-    <h2 class="category-heading">Add-On Treatments</h2>
-    <div class="grid grid-3">
-      {{#each addonServices}}
-      <div class="card service-card">
-        <img class="service-photo" src="{{photo}}" alt="{{name}}" loading="lazy">
-        <h3>{{name}}</h3>
-        <p class="price-range">{{priceLabel}}</p>
-        <p>{{description}}</p>
-        <a href="/services/{{slug}}/" class="btn btn-outline">Details &amp; Booking</a>
-      </div>
-      {{/each}}
-    </div>
+<h2 class="category-heading">Add-On Treatments</h2>
+<div class="grid grid-3">
+{{#each addonServices}}
+<div class="card service-card">
+<img class="service-photo" src="{{photo}}" alt="{{name}}" loading="lazy">
+<h3>{{name}}</h3>
+<p class="price-range">{{priceLabel}}</p>
+<p>{{description}}</p>
+<a href="/services/{{slug}}/" class="btn btn-outline">Details &amp; Booking</a>
+</div>
+{{/each}}
+</div>
 
-    <div class="notice-box mt-lg">
-      <p style="margin:0; color:var(--color-primary-dark);">All prices in CAD. Massage therapy services provided by a CRMTA-certified therapist are exempt from GST in Alberta. A $50 deposit is required to confirm each booking. Official receipts with CRMTA membership number are provided for insurance reimbursement.</p>
-    </div>
-  </div>
+<div class="notice-box mt-lg">
+<p style="margin:0; color:var(--color-primary-dark);">All prices in CAD. A $50 deposit is required to confirm each booking.</p>
+</div>
+</div>
 </section>
 
 <section class="text-center band">
-  <div class="wrap">
-    <h2>Not Sure Which Treatment Is Right for You?</h2>
-    <p>Reach out and we'll help you choose, or book directly with your preferred service.</p>
-    <a href="/contact/" class="btn btn-outline" style="border-color:#fff; color:#fff;">Contact Us</a>
-  </div>
+<div class="wrap">
+<h2>Not Sure Which Treatment Is Right for You?</h2>
+<p>Reach out and we'll help you choose, or book directly with your preferred service.</p>
+<a href="/contact/" class="btn btn-outline" style="border-color:#fff; color:#fff;">Contact Us</a>
+</div>
 </section>
