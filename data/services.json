@@ -15,7 +15,7 @@
     "slug": "relaxation-massage",
     "name": "Relaxation Massage",
     "category": "Massages",
-    "description": "A gentle, full-body massage using long, flowing strokes and light-to-medium pressure to calm the nervous system, ease everyday stress, and improve circulation. This treatment focuses on overall relaxation rather than deep muscle work, making it a wonderful way to unwind, recharge, and reconnect with your body. Perfect if you simply need to slow down, breathe, and be cared for.",
+    "description": "A gentle, full-body massage using long, flowing strokes and light-to-medium pressure to calm the nervous system, ease everyday stress, and improve circulation. This treatment focuses on overall relaxation rather than deep muscle work, making it a wonderful way to unwind and recharge. Perfect if you simply need to slow down, breathe, and be cared for.",
     "noterroBookUrl": "https://nafawellness.noterro.com/book-online/service/321719/Relaxation-Massage",
     "options": [
       { "duration": "45 min", "price": 85 },
@@ -49,7 +49,7 @@
     "slug": "lymphatic-massage",
     "name": "Lymphatic Massage",
     "category": "Massages",
-    "description": "A light-pressure, rhythmic technique that encourages the natural drainage of the lymphatic system, helping to reduce swelling and fluid retention, support your immune system, and flush out toxins. This gentle treatment is especially helpful after surgery, travel, or periods of inactivity, and leaves your body feeling lighter, de-puffed, and refreshed.",
+    "description": "A light-pressure, rhythmic technique that encourages the natural drainage of the lymphatic system, helping to reduce swelling and fluid retention, support your immune system, and flush out toxins. This gentle treatment is especially helpful after surgery, travel, or periods of inactivity, and leaves your body feeling lighter and refreshed.",
     "noterroBookUrl": "https://nafawellness.noterro.com/book-online/service/321725/Lymphatic-Massage",
     "options": [
       { "duration": "60 min", "price": 120 },
@@ -60,7 +60,7 @@
     "slug": "sports-massage",
     "name": "Sports Massage",
     "category": "Massages",
-    "description": "Designed for active bodies, this massage targets the muscles used in your sport or training to aid recovery, improve flexibility, and prevent injury. Combining deep tissue work, stretching, and trigger point techniques, it's tailored to your specific activity, whether you're preparing for competition, recovering from an intense workout, or managing ongoing muscle tightness from an active lifestyle.",
+    "description": "Designed for active bodies, this massage targets the muscles used in your sport or training to aid recovery, improve flexibility, and prevent injury. Combining deep tissue work, stretching, and trigger point techniques, it's tailored to your specific activity and training needs.",
     "noterroBookUrl": "https://nafawellness.noterro.com/book-online/service/321726/Sports-Massage",
     "options": [
       { "duration": "60 min", "price": 115 },
